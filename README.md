@@ -1,7 +1,7 @@
-# Adversarial attack on speaker recognition systems and Detection of an attack on smart speakers
+
 <div align="center">
 
-# Meta Learning in Adaptive Filters for Audio applications
+# Adversarial attack on speaker recognition systems and Detection of an attack on smart speakers
 
 [Sri Harsha Eedala]<sup>1</sup><sup>*</sup>
 
