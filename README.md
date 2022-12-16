@@ -10,7 +10,6 @@
 <sup>*</sup>The implementation of this work is done as a part of class project
 </div>
 
-Demonstration Website: [FAKEBOB Website](https://sites.google.com/view/fakebob/home "FAKEBOB Website") (including a One-Minute Video Preview)
 
 The paper implemented in this project is is given below
 
@@ -29,14 +28,6 @@ Cite this paper as follow:
         doi = {10.1109/SP40001.2021.00004},
     }
 
-## New ##
-- [2022.11.18] FAKEBOB has been incorpoated into [***SpeakerGuard***](https://github.com/speakerguard/speakerguard), a fully-pytorch-based platform for security analysis for speaker recognition. Consider using it if you want to get rid of the "messy" Kaidi. 
-- [2021.05.12]
-We remove from the loss function the outermost maximum operation since it will cause unexpected issue for benign voices whose initial loss is slightly larger than adver_thresh. 
-
-For example, suppose adver_thresh=0, and the initial loss of a benign voice is 0.01. This voice is not robust enough, so add a random noise is enough to make it adversarial. Hence, the samples_per_draw noisy samples are adversarial voices. If the outermost maximum operation is retained, all the loss of these noisy samples are zero. So the estimated gradient remains zero, and the sample will not be updated throughout the iteration procedure.
-
-That 's why we can only achieve 99% ASR, and not 100% in our paper. Using the updated loss function, we can achieve 100% ASR.
 
 ## Basic
 You can either use the docker environment (recommended) or follow the manual installation.
