@@ -1,17 +1,23 @@
 # Adversarial attack on speaker recognition systems and Detection of an attack on smart speakers
-Source code for paper "Who is real Bob? Adversarial Attacks on Speaker Recognition Systems".
+<div align="center">
+
+# Meta Learning in Adaptive Filters for Audio applications
+
+[Sri Harsha Eedala]<sup>1</sup><sup>*</sup>
+
+<sup>1</sup> Department of Electrical and Computer Engineering,Arizona State University<br>
+
+<sup>*</sup>The implementation of this work is done as a part of class project
+</div>
 
 Demonstration Website: [FAKEBOB Website](https://sites.google.com/view/fakebob/home "FAKEBOB Website") (including a One-Minute Video Preview)
 
-Our paper has been accepted by [42nd IEEE Symposium on Security and Privacy (**IEEE S&P, Oakland**), 2021](https://www.ieee-security.org/TC/SP2021/program-papers.html).
+The paper implemented in this project is is given below
 
 Paper link [Who is real Bob? Adversarial Attacks on Speaker Recognition Systems](https://arxiv.org/abs/1911.01840).
 
-Oakland 2021 Presentation Slide [Session #5-GuangkeChen-WhoisRealBob](http://guangkechen.site/FAKEBOB/Oakland2021-Session-5-GuangkeChen-WhoisRealBob.pdf)
 
-Oakland 2021 Talk Video: [Presentation Video](https://youtu.be/ZRfkcojsUD4)
-
-Cite our paper as follow:
+Cite this paper as follow:
 
     @INPROCEEDINGS {chen2019real,
         author = {G. Chen and S. Chen and L. Fan and X. Du and Z. Zhao and F. Song and Y. Liu},
@@ -135,6 +141,5 @@ The name of each sub-folder should be the unique speaker ID of the corresponding
 > ### Attack other speaker recognition systems  
 To generate adversarial voices on other speaker recognition systems using our attack FAKEBOB, what you need to do is quite simple: just wrap your system by providing two interface - function `score` and `make_decisions`. Please refer to `gmm_ubm_OSI.py`, `gmm_ubm_CSI.py`, `gmm_ubm_SV.py`, `ivector_PLDA_OSI.py`, `ivector_PLDA_CSI.py`, `ivector_PLDA_SV.py` for details about the input and output arguments.
 
-### If you have any question, feel free to comment or contact.
 
 
