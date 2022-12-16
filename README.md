@@ -1,4 +1,4 @@
-# FAKEBOB
+# Adversarial attack on speaker recognition systems and Detection of an attack on smart speakers
 Source code for paper "Who is real Bob? Adversarial Attacks on Speaker Recognition Systems".
 
 Demonstration Website: [FAKEBOB Website](https://sites.google.com/view/fakebob/home "FAKEBOB Website") (including a One-Minute Video Preview)
